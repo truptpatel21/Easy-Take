@@ -9,6 +9,8 @@ const adminRoute = require('./router/admin-router.js')
 const connectDB = require('./utils/db.js');
 const errorMiddleware = require("./middlewares/error-middleware.js");
 require('dotenv').config({ path: '../.env' });
+require('dotenv').config();
+
 
 
 
